@@ -1,12 +1,33 @@
 /** @module test-string */
 
+import {isString, isFunction, isRegExp} from "lodash"
+
 /**
- * Returns the number of seconds passed since Unix epoch (01 January 1970)
  * @function
- * @returns {number} Seconds since epoch
+ * @param {string} haystack
+ * @param {string|Function|RegExp} tester
+ * @returns {boolean} `true` if given `tester` says that given `haystack` matches the conditions
  * @example
  * import testString from "test-string"
- * const result = testString()
- * result === 1549410770
+ * const result = testString("hello", string => string.startsWith("hell"))
+ * result === true
  */
-export default () => Math.floor(Date.now() / 1000)
+export default (haystack, tester) => {
+  if (!isString(haystack)) {
+    haystack = String(haystack)
+  }
+
+  if (tester |> isString) {
+    return haystack.includes(tester)
+  }
+
+  if (tester |> isFunction) {
+    return tester(haystack)
+  }
+
+  if (tester |> isRegExp) {
+    return tester.test(haystack)
+  }
+
+  return false
+}
