@@ -3,6 +3,15 @@
 
 Checks if a string matches given string, RegExp or function.
 
+## Installation
+<a href='https://npmjs.com/package/test-string'><img alt='npm logo' src='https://raw.githubusercontent.com/npm/logos/master/npm%20logo/npm-logo-red.png' height=16/></a>
+```bash
+npm install --save test-string@^
+```
+<a href='https://yarnpkg.com/package/test-string'><img alt='Yarn logo' src='https://raw.githubusercontent.com/yarnpkg/assets/master/yarn-kitten-full.png' height=24/></a>
+```bash
+yarn add test-string@^
+```
 
 
 ## Try it out
