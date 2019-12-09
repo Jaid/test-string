@@ -4,17 +4,18 @@
 Checks if a string matches given string, RegExp or function.
 
 ## Installation
-<a href='https://npmjs.com/package/test-string'><img alt='npm logo' src='https://raw.githubusercontent.com/npm/logos/master/npm%20logo/npm-logo-red.png' height=16/></a>
+<a href='https://npmjs.com/package/test-string'><img alt='npm logo' src='https://github.com/Jaid/action-readme/raw/master/images/base-assets/npm.png'/></a>
 ```bash
-npm install --save test-string@^
+npm install --save test-string@^1.0.0
 ```
-<a href='https://yarnpkg.com/package/test-string'><img alt='Yarn logo' src='https://raw.githubusercontent.com/yarnpkg/assets/master/yarn-kitten-full.png' height=24/></a>
+<a href='https://yarnpkg.com/package/test-string'><img alt='Yarn logo' src='https://github.com/Jaid/action-readme/raw/master/images/base-assets/yarn.png'/></a>
 ```bash
-yarn add test-string@^
+yarn add test-string@^1.0.0
 ```
 
 
 ## Try it out
+<img alt='Chromium logo' src='https://github.com/Jaid/action-readme/raw/master/images/base-assets/browser.png'/>
 Open a browser's JavaScript console and execute:
 
 ```javascript
@@ -24,10 +25,10 @@ scriptElement.setAttribute("src","https://unpkg.com/test-string@1.0.0");
 document.querySelector("head").appendChild(scriptElement);
 ```
 
-The module is now loaded in a variable.
+This module is now loaded in a variable that can be accessed in any scope.
 
 ```javascript
-typeof test-string.default
+typeof testString.default
 ```
 
 
