@@ -33,5 +33,9 @@
   },
   "name": "test-string",
   "description": "Checks if a string matches given string, RegExp or function.",
-  "funding": "https://github.com/sponsors/jaid"
+  "funding": "https://github.com/sponsors/jaid",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jaid/test-string"
+  }
 }
