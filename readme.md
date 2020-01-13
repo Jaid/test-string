@@ -1,9 +1,9 @@
 # test-string
 
 
-<a href="https://raw.githubusercontent.com/Jaid/test-string/master/license.txt"><img src="https://img.shields.io/github/license/Jaid/test-string?style=flat-square" alt="License"/></a>  
-<a href="https://actions-badge.atrox.dev/Jaid/test-string/goto"><img src="https://img.shields.io/endpoint.svg?style=flat-square&url=https%3A%2F%2Factions-badge.atrox.dev%2FJaid%2Ftest-string%2Fbadge" alt="Build status"/></a> <a href="https://github.com/Jaid/test-string/commits"><img src="https://img.shields.io/github/commits-since/Jaid/test-string/v1.0.0?style=flat-square&logo=github" alt="Commits since v1.0.0"/></a> <a href="https://github.com/Jaid/test-string/commits"><img src="https://img.shields.io/github/last-commit/Jaid/test-string?style=flat-square&logo=github" alt="Last commit"/></a> <a href="https://github.com/Jaid/test-string/issues"><img src="https://img.shields.io/github/issues/Jaid/test-string?style=flat-square&logo=github" alt="Issues"/></a>  
-<a href="https://npmjs.com/package/test-string"><img src="https://img.shields.io/npm/v/test-string?style=flat-square&logo=npm&label=latest%20version" alt="Latest version on npm"/></a> <a href="https://github.com/Jaid/test-string/network/dependents"><img src="https://img.shields.io/librariesio/dependents/npm/test-string?style=flat-square&logo=npm" alt="Dependents"/></a> <a href="https://npmjs.com/package/test-string"><img src="https://img.shields.io/npm/dm/test-string?style=flat-square&logo=npm" alt="Downloads"/></a>
+<a href="https://raw.githubusercontent.com/jaid/test-string/master/license.txt"><img src="https://img.shields.io/github/license/jaid/test-string?style=flat-square" alt="License"/></a> <a href="https://github.com/sponsors/jaid"><img src="https://img.shields.io/badge/<3-Sponsor-FF45F1?style=flat-square" alt="Sponsor test-string"/></a>
+<a href="https://actions-badge.atrox.dev/jaid/test-string/goto"><img src="https://img.shields.io/endpoint.svg?style=flat-square&url=https%3A%2F%2Factions-badge.atrox.dev%2Fjaid%2Ftest-string%2Fbadge" alt="Build status"/></a> <a href="https://github.com/jaid/test-string/commits"><img src="https://img.shields.io/github/commits-since/jaid/test-string/v1.0.0?style=flat-square&logo=github" alt="Commits since v1.0.0"/></a> <a href="https://github.com/jaid/test-string/commits"><img src="https://img.shields.io/github/last-commit/jaid/test-string?style=flat-square&logo=github" alt="Last commit"/></a> <a href="https://github.com/jaid/test-string/issues"><img src="https://img.shields.io/github/issues/jaid/test-string?style=flat-square&logo=github" alt="Issues"/></a>  
+<a href="https://npmjs.com/package/test-string"><img src="https://img.shields.io/npm/v/test-string?style=flat-square&logo=npm&label=latest%20version" alt="Latest version on npm"/></a> <a href="https://github.com/jaid/test-string/network/dependents"><img src="https://img.shields.io/librariesio/dependents/npm/test-string?style=flat-square&logo=npm" alt="Dependents"/></a> <a href="https://npmjs.com/package/test-string"><img src="https://img.shields.io/npm/dm/test-string?style=flat-square&logo=npm" alt="Downloads"/></a>
 
 **Checks if a string matches given string, RegExp or function.**
 
@@ -41,14 +41,13 @@ yarn add test-string@^1.0.0
 
 
 
-
 ## Development
 
 
 
 Setting up:
 ```bash
-git clone git@github.com:Jaid/test-string.git
+git clone git@github.com:jaid/test-string.git
 cd test-string
 npm install
 ```
