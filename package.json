@@ -32,5 +32,6 @@
     "prepareActionJest": "npm run build:prod"
   },
   "name": "test-string",
-  "description": "Checks if a string matches given string, RegExp or function."
+  "description": "Checks if a string matches given string, RegExp or function.",
+  "funding": "https://github.com/sponsors/jaid"
 }
