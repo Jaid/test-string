@@ -38,5 +38,18 @@
     "url": "https://github.com/jaid/test-string"
   },
   "homepage": "https://github.com/Jaid/test-string",
-  "keywords": []
+  "keywords": [
+    "library",
+    "match",
+    "regex",
+    "regexp",
+    "regular-expression",
+    "string",
+    "strings",
+    "test",
+    "util",
+    "utility",
+    "validate",
+    "validation"
+  ]
 }
